@@ -1,0 +1,112 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+.main {
+    background-color: rgb(43, 44, 44);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupformopen{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    height: 500px;
+    width: 700px;
+    background-color: whitesmoke;
+   }
+
+   .signupformclosed{
+       display:none;
+   }
+
+   .loginformclosed{
+       display: none;
+   }
+
+   .loginformopen{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    height: 500px;
+    width: 700px;
+    background-color: whitesmoke;
+   }
+
+.left {
+    flex: 0.45;
+    background-color:#567dd7bb ;
+    background-image: url('../../images/sign1.png');
+  background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+    /* opacity: 0.5; */
+}
+.left1 {
+    flex: 0.45;
+    background-color:#567dd7e8 ;
+    background-image: url(../../images/sign1.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.right {
+    flex: 0.55;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    color: #8b83fd;
+    font-weight: 700;
+}
+
+.names { 
+    display: flex;
+}
+
+.bac{
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+ width: 400px;
+ height: 400px;
+}
+.left h1{
+    font-size: 40px;
+}
+.left1 h1{
+    font-size: 40px;
+}
+text {
+    padding-left: 5px;
+}
+.left Button{
+    margin: 10px 0px 0px 0px;
+}
+.formfield {
+    margin:2px;
+}

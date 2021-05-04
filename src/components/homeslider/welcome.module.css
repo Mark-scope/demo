@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.slider1{
+    border-radius: 10px;
+    background-image: url('/src/images/topback.jpg');
+    background-color: #567DD7;
+    margin: 30px 180px;
+    padding-top: 10px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 179px;
+    color: white;
+}
+.slider1 h3{
+    font-size: 40px;
+}
+.slider2{
+    display: flex;
+}
+.video1{
+    height: 50px;
+    width: 40px;
+    margin: 0px 10px;
+
+}

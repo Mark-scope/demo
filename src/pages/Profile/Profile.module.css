@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: auto;
+    background-color: rgb(43, 44, 44);
+}
+.progress{
+    margin: 20px;
+    background-color: #567DD7;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+}
+

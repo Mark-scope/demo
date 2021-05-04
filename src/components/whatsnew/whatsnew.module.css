@@ -1,0 +1,28 @@
+.right{
+    flex: 0.2;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.field{
+    border-radius: 30px;
+    background-color: #567dd7a1;
+    padding: 5px;
+    border: none;
+}
+.story1{
+    height: 140px;
+    width: 200px;
+    background-image: url('../../images/profile.jpg');
+    margin-top: 20px;
+    color: black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

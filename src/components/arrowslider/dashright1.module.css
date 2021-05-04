@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.right1{
+    display: flex;
+    flex-direction: column;
+    flex: 0.01;
+    align-items: center;
+    justify-content: center;
+    animation: 8s ease-in-out infinite alternate;
+}
+.disable{
+    display: none;
+}
+.right1no{
+    display: none;
+}
+.Arrow{
+    display: flex;
+    border-radius: 20px 0px 0px 20px;
+    background-color: #567DD7;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.Arrowr{
+    width: 20px;
+}

@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.right{
+    flex: 0.35;
+    display: flex;
+    flex-direction: column;
+    background-color: #567DD7;
+    border-radius: 10px 0px 0px 10px;
+}
+.rightno{
+    display: none;
+}
+.img1{
+    height: 20px;
+    width: 20px;
+}
+.righttop{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.righttop1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px 10px 10px 100px;
+}
+.righttop1 div{
+    padding-right: 60px;
+}
+.img{
+    height: 35px;
+    width: 35px;
+    padding: 0px 6px;
+}
+.rightex{
+    background-color: #242424;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.form-field {
+  padding: 3px;
+  border: 5px 5px;
+  border-radius: 14px 14px;
+  border-color: white;
+  outline: none;
+  margin: 4px 4px;
+  background: #567dd785;
+}
+
+::placeholder{
+  text-align: center;
+  color: white;
+}
+input{
+  color: white;
+}
+button{
+  border: none;
+  outline: none;
+  background-color: rgb(43, 44, 44);
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 800;
+  margin: 10px;
+}
+
+

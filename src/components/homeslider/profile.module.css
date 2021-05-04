@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.slider{
+    border-radius: 10px;
+    background-color: #567DD7;
+    margin: 30px 180px;
+    padding-top: 10px;
+    height: 179px;
+}
+
+.info{
+    display: flex;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    background-color: white;
+}
+.slider h3{
+    text-align: center;
+    color: white;
+}
+.about{
+    flex: 0.6;
+}
+.propic{
+    flex: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.propic img {
+    height: 170px;
+    width: 170px;
+    position: relative;
+    margin-top: -40.5px;
+}
+.btn{
+    background-color: #567DD7;
+    padding: 5px 9px;
+    font-weight: 600 ;
+}

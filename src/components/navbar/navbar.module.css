@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    background-color: #567DD7;
+}
+.logo{
+    flex: 0.5;
+    padding-left: 20px;
+}
+.log{
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.menus{
+    display: flex;
+    flex-direction: row;
+    flex: 0.5;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.but{
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 300px;
+}
+.b{
+    background-color: white;
+    color: black;
+    padding: 7px 10px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+.ba{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
