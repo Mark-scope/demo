@@ -19,7 +19,8 @@ function Landingpage(){
                 <Button text='Login'onClick={() => goTopage('/signup')} />
             </div>
             <div className = 'right'>
-
+                
+                    
             </div>
 
         </div>

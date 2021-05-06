@@ -4,12 +4,22 @@ import WhatsNew from '../../components/whatsnew/whatsnew'
 import WelcomeComponent from '../../components/homeslider/welcome'
 import Profile from '../../components/homeslider/profile'
 import Footer from '../../components/footer/footer'
-import {useState} from 'react'
+import {useState,useEffect} from 'react'
 
 
 
 function HomePage() {
     
+    const [toggle,settoggle] = useState('welcome')
+
+    useEffect(() => {
+        
+        setTimeout(() => {
+            settoggle('profile')
+        }, 3000);
+       
+    }, [])
+
     return(
         <div className={home.body}>
             <Navbar />
@@ -17,13 +27,19 @@ function HomePage() {
 
             {/* below */}
             <div className={home.below}>
-                <div className={home.left}> 
+                <div className={home.left}>
+
+                    {
+                        toggle == 'welcome' ?
+
                     <div className={home.welcome}>
                         <WelcomeComponent />
-                    </div>
+                    </div>:
+
                     <div className={home.profile}>
                         <Profile />     
                     </div>                
+                    } 
                     <div className={home.know}>
 
                     </div>

@@ -84,12 +84,6 @@
 }
 .profile {
   animation: profilediv 4s;
-  animation-delay: 3s;
-  /* transform: translateY(0px); */
-  /* position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%; */
 }
 @keyframes welcomediv {
   0% {

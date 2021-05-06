@@ -45,9 +45,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 457px;
 }
 .experts{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
