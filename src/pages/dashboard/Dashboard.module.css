@@ -9,10 +9,6 @@
     justify-content: space-between;
 }
 
-/* left */
-
-
-
 /* middle */
 .middle{
     flex: 0.6;    
@@ -28,12 +24,3 @@
 .middle1no{
     display: none;
 }
-
-
-/* right */
-
-/* right */
-
-
-/* right1 */
-
