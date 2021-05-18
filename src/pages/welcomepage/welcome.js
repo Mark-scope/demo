@@ -6,9 +6,12 @@ import skillicon from '../../icons/skills.png'
 import MentorshipIcon from '../../icons/mentorship.png'
 import Profile from '../../components/homeslider/profile'
 import Footer from '../../components/footer/footer'
+import { useAppContext } from '../../store/context';
 
 function WelcomePage() {
-    
+     
+    const{goTopage}=useAppContext()
+
     return(
         <div className={Wel.body}>
             <Navbar />
@@ -45,7 +48,7 @@ function WelcomePage() {
                                     skills, dos and don'ts of what ever business you want to start as well as the hardships
                                      from experts you choose to learn from. Start a session 
                                     to know the experience</p>
-                                <button className={Wel.btn1}>Start Session</button>
+                                <button className={Wel.btn1}onClick={() => goTopage('/dashboard')}>Start Session</button>
                             </div>
                     </div>
 
@@ -58,7 +61,7 @@ function WelcomePage() {
                                 <p>Interested in learning a skill for a very long time or do you want learn something new for fun? How about
                                     learning it from top experts who can make you understand and easy to learn. Start a session 
                                     to know the experience</p>
-                                <button className={Wel.btn1}>Start Session</button>
+                                <button className={Wel.btn1} onClick={() => goTopage('/dashboard')}>Start Session</button>
                             </div>
                     </div>
 
@@ -72,7 +75,7 @@ function WelcomePage() {
                                     or advice on what to do in your professional life. How about listening experts talk about how
                                     they over came thiers or live sessins with them to know what to do in such times. Start a session 
                                     to know the experience</p>
-                                <button className={Wel.btn1}>Start Session</button>
+                                <button className={Wel.btn1} onClick={() => goTopage('/dashboard')}>Start Session</button>
                             </div>
                     </div>
                     <div className={Wel.know1} />

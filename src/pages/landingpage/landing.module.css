@@ -29,5 +29,13 @@ padding: 0;}
 .h3{
     margin-bottom: 10px; 
     font-weight: 500;
-
+}
+.right{
+    flex: 0.5;
+}
+.right img{
+  padding: 100px 0px 13px 232px;
+  height: 400px;
+  width: 400px;
+  border-radius: 100px 100px;
 }

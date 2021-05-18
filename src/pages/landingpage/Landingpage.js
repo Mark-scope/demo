@@ -1,6 +1,7 @@
 import Button from '../../components/button'
 import Landing from './landing.module.css'
 import { useAppContext } from '../../store/context';
+import Logo from '../../images/2.png'
 
 
 function Landingpage(){
@@ -18,8 +19,8 @@ function Landingpage(){
                 <Button text='Sign Up' onClick={() => goTopage('/signup')} />
                 <Button text='Login'onClick={() => goTopage('/signup')} />
             </div>
-            <div className = 'right'>
-                
+            <div className ={Landing.right}>
+                <img src={Logo} />
                     
             </div>
 
