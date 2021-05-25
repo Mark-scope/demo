@@ -1,11 +1,12 @@
 import Button from '../button'
 import footer from './footer.module.css'
+import logo from '../../images/logo.png'
 
 function Footer () {
     return(
         <div className={footer.main}>
             <div className={footer.logo}>
-                    <a>app logo</a>
+                < img src={logo} />
             </div>
             <div className={footer.info}>
                    <p>Powered by Impact Sphere</p>

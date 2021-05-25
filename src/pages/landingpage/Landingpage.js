@@ -17,7 +17,7 @@ function Landingpage(){
                     Sign up to enjoy our user experience
                 </p>
                 <Button text='Sign Up' onClick={() => goTopage('/signup')} />
-                <Button text='Login'onClick={() => goTopage('/signup')} />
+                <Button text='Login'onClick={() => goTopage('/login')} />
             </div>
             <div className ={Landing.right}>
                 <img src={Logo} />

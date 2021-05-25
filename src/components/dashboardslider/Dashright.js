@@ -37,12 +37,12 @@ function Dashright(props) {
                     <img src={Arrow} className={Dash.img1} onClick={props.setrightstyle} type=''  />
                     <div className={Dash.righttop1}>
                         <div><h3> img Name</h3></div>
-                        <img src={progress} className={Dash.img} type='' onClick={initialstate}/>
-                        <img src={vid} className={Dash.img} type='' onClick={initialstate2}/>
+                        <img src={vid} className={Dash.img} type='' onClick={initialstate}/>
+                        <img src={progress} className={Dash.img} type='' onClick={initialstate2}/>
                         <img src={Not}  className={Dash.img} type='' onClick={initialstate3}/>
                     </div>
-
                 </div>
+
                 
                 <div className={Dash.experts}>
 
@@ -56,20 +56,20 @@ function Dashright(props) {
                 : null
                 }
                    
-                   {showprogress == true? 
-                    <div >
+                {showprogress == true? 
+                <div >
                         <div className={Dash.rightex}>
                         <h3>Progress</h3>
                         </div>
                         <Progressfordash />
-                    </div>: null}
+                </div>: null}
                     
-                    {shownotification == true? 
-                    <div >
+                {shownotification == true? 
+                <div >
                         <div className={Dash.rightex}>
                         <h3>Notification</h3>
                         </div>
-                    </div> : null}
+                </div> : null}
 
                 </div>
             </div>

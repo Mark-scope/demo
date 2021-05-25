@@ -79,7 +79,7 @@
   border: none;
 }
 .welcome {
-  animation: welcomediv 3s;
+  animation: welcomediv 7s;
   transform: translateX(-1000px);
 }
 .profile {
@@ -90,7 +90,7 @@
     transform: translateX(0px);
   }
   100% {
-    transform: translateX(-1000px);
+    transform: translateX(0px);
   }
 }
 @keyframes profilediv {

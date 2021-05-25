@@ -9,18 +9,3 @@
     justify-content: space-between;
 }
 
-/* middle */
-.middle{
-    flex: 0.6;    
-}
-.middle{
-    display: none;
-}
-
-/* middle1 */
-.middle1{
-    flex: 0.95; 
-}
-.middle1no{
-    display: none;
-}

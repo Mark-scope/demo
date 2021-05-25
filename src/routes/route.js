@@ -1,4 +1,4 @@
-import {SignUp,Dashboard,Landingpage, WelcomePage,HomePage,Profilepage} from '../pages/index'
+import {SignUp,Dashboard,Landingpage, WelcomePage,HomePage,Profilepage,Login} from '../pages/index'
 import {Switch,Route} from 'react-router-dom'
 
 function RouteComponent() {
@@ -11,7 +11,7 @@ function RouteComponent() {
           <Route exact path='/welcome' component={WelcomePage} />
           <Route exact path='/home' component={HomePage} />
           <Route exact path='/profile' component={Profilepage} />
-  
+          <Route exact path='/login' component={Login} />
         </Switch>
       </div>
     );

@@ -1,11 +1,12 @@
 import Nav from './navbar.module.css'
+import logo from '../../images/logo.png'
 
 
 function Navbar() {
     return(
         <div className={Nav.main}>
             <div className={Nav.logo}>
-                <button className={Nav.log}>LOGO</button>
+                < img src={logo} />
             </div>
             <div className={Nav.menus}>
                 <button className={Nav.b}>Logout</button>

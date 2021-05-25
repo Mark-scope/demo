@@ -22,7 +22,12 @@ input{
  display: flex;
  flex-direction: column;
  justify-content: center;
- align-items: center;
+ align-items: flex-start;
+ padding-left: 30px;
+}
+.logo img{
+    width: 100px;
+    padding: 5px 0px;
 }
 .info{
     flex: 0.33;

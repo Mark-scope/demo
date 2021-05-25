@@ -1,8 +1,8 @@
 import Dash from './Dashboard.module.css'
 import {useState} from 'react'
 import Navbarleft from '../../components/leftnavbar/nabarleft'
-import Dashright1 from '../../components/arrowslider/dashright1'
-import Middle from '../../components/Middle'
+import Arrowslider from '../../components/dashboardslider/arrowslider/arrowslider'
+import Middle from '../../components/middle/Middle'
 import Dashright from '../../components/dashboardslider/Dashright'
 
 function Dashboard(){
@@ -23,9 +23,9 @@ function Dashboard(){
     return(
         <div className={Dash.body}>
             <Navbarleft />
-            <Middle />
+            <Middle className={Dash.middle}/>
             <Dashright rightstyle={rightstyle}  setrightstyle={togglemain}/>
-            <Dashright1 style={style} setstyle={toggle}/>
+            <Arrowslider style={style} setstyle={toggle}/>
             
         </div>
     )

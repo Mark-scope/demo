@@ -16,7 +16,7 @@ function HomePage() {
         
         setTimeout(() => {
             settoggle('profile')
-        }, 3000);
+        }, 7000);
        
     }, [])
 

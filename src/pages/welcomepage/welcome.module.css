@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: center;
     background-image: url('../../video/backvid1.gif');
+    background-size: cover;
 }
 
 .header_content{
