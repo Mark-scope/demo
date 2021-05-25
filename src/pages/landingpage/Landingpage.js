@@ -20,7 +20,6 @@ function Landingpage(){
                 <Button text='Login'onClick={() => goTopage('/login')} />
             </div>
             <div className ={Landing.right}>
-                <img src={Logo} />
                     
             </div>
 

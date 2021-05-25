@@ -16,19 +16,20 @@ function SignUp(){
 
     function submit(e){
         e.preventDefault();
+        goTopage('/welcome')
       
-        fetch('http://localhost:5000/api/v1/signup', 
-        {
-          method: 'POST',
-          body: JSON.stringify(values),
-          headers: {
-            'Content-Type': 'application/json'
-          },
-        })
-        .then(response => response.json())
-        .then(responseData => {
-          console.log(responseData);
-        })
+        // fetch('http://localhost:5000/api/v1/signup', 
+        // {
+        //   method: 'POST',
+        //   body: JSON.stringify(values),
+        //   headers: {
+        //     'Content-Type': 'application/json'
+        //   },
+        // })
+        // .then(response => response.json())
+        // .then(responseData => {
+        //   console.log(responseData);
+        // })
     }
 
     const [toggle,settoggle] = useState(true)
