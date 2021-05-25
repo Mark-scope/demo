@@ -11,7 +11,7 @@ function Landingpage(){
     return(
         <div className = {Landing.main}>
             <div className = {Landing.left}>
-                <h1 className = {Landing.h1}>IMPACT SPHERE</h1>
+                <h1 className = {Landing.h1}>Xlearn</h1>
                 <p className = {Landing.h3}>Have you ever wanted to learn a skill, know the experiece of<br/> experts in their field of work
                     or do you need coaching or <br/>mentorship in what you do ? <br /> 
                     Sign up to enjoy our user experience
